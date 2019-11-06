@@ -1,0 +1,63 @@
+
+body {
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+}
+
+#stoplight {
+  margin: auto;
+  width: 50%;
+}
+
+#post {
+  background: #252525;
+  margin: 0 auto;
+  height: 15vh;
+  width: 9vh;
+}
+
+#light-box {
+  background: #252525;
+  margin: 0 auto;
+  width: 25vh;
+  padding: 5px 0;
+}
+
+.circle {
+  background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 5px auto;
+}
+
+.red {
+  background-color: #ff1919;
+}
+
+.red:hover {
+  box-shadow: 0px 0px 40px 15px #ff1919;
+}
+
+.yellow {
+  background-color: #ffe019;
+}
+
+.yellow:hover {
+  box-shadow: 0px 0px 40px 15px #ffe019;
+}
+
+.green {
+  background-color: #338c00;
+}
+
+.green:hover {
+  box-shadow: 0px 0px 40px 15px #338c00;
+}
